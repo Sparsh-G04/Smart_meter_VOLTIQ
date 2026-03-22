@@ -1,0 +1,117 @@
+{
+  "1111111111": {
+    "user": {
+      "id": "zfxsknn5s",
+      "name": "User",
+      "phone": "1111111111",
+      "password": "123456",
+      "discom": "BSES Yamuna",
+      "accountType": "postpaid",
+      "customerId": "12345678",
+      "address": "Flat A-301, Green Valley Apartments, Sec-12, Dwarka, New Delhi - 110078",
+      "location": "Dwarka, Delhi"
+    },
+    "appliances": [],
+    "scheduleChoices": {},
+    "dailySchedule": {
+      "2026-03-22": {}
+    },
+    "lastUpdated": "2026-03-22T07:35:14.793Z"
+  },
+  "7982939845": {
+    "user": {
+      "id": "go80h6ahl",
+      "name": "Neha Reddy",
+      "phone": "7982939845",
+      "password": "123456",
+      "discom": "BSES Yamuna",
+      "accountType": "postpaid",
+      "customerId": "40110875",
+      "address": "Flat 923, Royal Enclave Apartments, Vasant Kunj, Bangalore - 876853",
+      "location": "Vasant Kunj, Bangalore"
+    },
+    "appliances": [
+      {
+        "id": "custom-1774168516404",
+        "name": "Living Room",
+        "iconName": "Plug",
+        "kw": 0.85,
+        "isOn": false,
+        "dailyHours": 4,
+        "monthlyCost": 714,
+        "category": "Smart Home",
+        "smartEnabled": true,
+        "schedule": "16:00 – 22:00"
+      },
+      {
+        "id": "custom-1774168594796",
+        "name": "Fridge",
+        "iconName": "Plug",
+        "kw": 0.15,
+        "isOn": true,
+        "dailyHours": 12,
+        "monthlyCost": 378,
+        "category": "Kitchen",
+        "smartEnabled": false,
+        "schedule": "15:54 – 15:55"
+      },
+      {
+        "id": "custom-1774178278752",
+        "name": "bedroom AC",
+        "iconName": "Plug",
+        "kw": 1.4,
+        "isOn": false,
+        "dailyHours": 4,
+        "monthlyCost": 1176,
+        "category": "Cooling",
+        "smartEnabled": false,
+        "schedule": "16:49 – 17:00"
+      },
+      {
+        "id": "custom-1774194237298",
+        "name": "Kids AC",
+        "iconName": "Plug",
+        "kw": 1.71,
+        "isOn": true,
+        "dailyHours": 4,
+        "monthlyCost": 1436,
+        "category": "Smart Home",
+        "smartEnabled": true,
+        "schedule": "09:00 – 13:00"
+      }
+    ],
+    "scheduleChoices": {
+      "custom-1774168516404": "manual",
+      "custom-1774168594796": "manual"
+    },
+    "dailySchedule": {
+      "2026-03-22": {
+        "custom-1774168516404": {
+          "applianceName": "Living Room",
+          "choice": "manual",
+          "schedule": "16:00 – 22:00",
+          "date": "2026-03-22"
+        },
+        "custom-1774168594796": {
+          "applianceName": "Fridge",
+          "choice": "manual",
+          "schedule": "15:54 – 15:55",
+          "date": "2026-03-22"
+        },
+        "custom-1774178278752": {
+          "applianceName": "bedroom AC",
+          "choice": "manual",
+          "schedule": "16:49 – 17:00",
+          "date": "2026-03-22"
+        },
+        "custom-1774194237298": {
+          "applianceName": "Kids AC",
+          "choice": "manual",
+          "schedule": "09:00 – 13:00",
+          "date": "2026-03-22"
+        }
+      }
+    },
+    "lastUpdated": "2026-03-22T15:54:39.250Z"
+  }
+}
