@@ -13,7 +13,7 @@ import {
 import { useVoltStore } from '@/lib/store';
 import type { Appliance } from '@/lib/store';
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, any> = {
   AirVent, Droplets, WashingMachine, Tv, Lightbulb, Plug, Refrigerator, Fan, Smartphone
 };
 

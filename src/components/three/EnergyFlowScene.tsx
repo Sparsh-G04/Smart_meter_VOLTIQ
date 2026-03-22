@@ -9,7 +9,7 @@ import {
   AirVent, Droplets, WashingMachine, Tv, Lightbulb, Plug, Refrigerator, Fan, Smartphone, Zap
 } from 'lucide-react';
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, any> = {
   AirVent, Droplets, WashingMachine, Tv, Lightbulb, Plug, Refrigerator, Fan, Smartphone
 };
 
